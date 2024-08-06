@@ -4,7 +4,7 @@ metadata:
   name: grafana
 spec:
   dnsNames:
-  - "grafana.lan"
+  - "REDACTED"
   commonName: "Grafana"
   duration: 2160h0m0s
   renewBefore: 360h0m0s
