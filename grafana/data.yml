@@ -1,0 +1,30 @@
+apiVersion: 1
+
+datasources:
+
+- name: Mimir@K3s
+  type: prometheus
+  access: proxy
+  orgId: 1
+  url: REDACTED
+  version: 1
+  editable: true
+
+
+- name: Prometheus@K3s
+  type: prometheus
+  access: proxy
+  orgId: 1
+  url: REDACTED
+  manageAlerts: False
+  isDefault: false
+  version: 1
+  editable: true
+
+- name: Alertmanager@K3s
+  type: alertmanager
+  url: REDACTED
+  editable: true 
+  access: proxy
+  jsonData:
+    implementation: 'prometheus' # alternatively 'cortex'

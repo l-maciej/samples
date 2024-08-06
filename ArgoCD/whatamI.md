@@ -1,0 +1,1 @@
+I'm example ArgoCD deployment form local cluster

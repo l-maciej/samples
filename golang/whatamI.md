@@ -1,0 +1,1 @@
+I'm a Golang script pulling data from public IMGW API and exposing those to prometheus as a push metrics instead of pull ones(script is executed as a kubernetes cron job)   
